@@ -1,0 +1,35 @@
+# Ignore standard build outputs
+build/
+out/
+*.o
+*.elf
+*.bin
+*.iso
+*.img
+*.map
+*.sym
+
+# Toolchain / cross-compiler outputs
+cross/
+x86_64-elf/
+i686-elf/
+
+# QEMU / emulator junk
+*.qcow2
+qemu.log
+qemu.pid
+
+# Editor & IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Debugger
+.gdb_history
+*.core
+
+# OS / platform junk
+.DS_Store
+Thumbs.db
